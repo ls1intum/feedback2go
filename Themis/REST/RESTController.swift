@@ -9,7 +9,7 @@ import Foundation
 import UserStore
 
 class RESTController {
-    static var shared = RESTController(baseURL: (UserSession.shared.institution?.baseURL ?? URL(string: "https://artemis-staging.ase.in.tum.de/")!))
+    static var shared = RESTController(baseURL: (UserSession.shared.institution?.baseURL ?? URL(string: "https://artemis.ase.cit.tum.de/")!))
 
     var baseURL: URL
 
