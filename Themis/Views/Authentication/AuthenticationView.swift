@@ -185,7 +185,7 @@ struct AuthenticationView: View {
     
     private func updateRESTController(for identifier: InstitutionIdentifier) {
         // swiftlint:disable:next force_unwrapping
-        RESTController.shared = RESTController(baseURL: identifier.baseURL ?? URL(string: "https://artemis-staging.ase.in.tum.de/")!)
+        RESTController.shared = RESTController(baseURL: identifier.baseURL ?? URL(string: "https://artemis.ase.cit.tum.de/")!)
     }
     
     @ViewBuilder
