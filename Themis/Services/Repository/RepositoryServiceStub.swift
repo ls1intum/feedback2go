@@ -1,5 +1,5 @@
 //
-//  ProgrammingAssessmentViewModel.swift
+//  RepositoryServiceStub.swift
 //  Themis
 //
 //  Created by Anian Schleyer on 09.06.24.
