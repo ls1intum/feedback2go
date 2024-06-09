@@ -45,7 +45,7 @@ enum SubmissionServiceFactory {
     static func service(for exercise: Exercise) -> any SubmissionService {
         switch exercise {
         case .programming:
-            return ProgrammingSubmissionServiceImpl()
+            return ProgrammingSubmissionServiceFactory.shared
         case .text:
             return TextSubmissionServiceImpl()
         case .modeling:

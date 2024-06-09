@@ -16,6 +16,7 @@ protocol RepositoryService {
     func getFileOfRepository(participationId: Int, filePath: String) async throws -> String
 }
 
-enum RepositoryServiceFactory {
-    static let shared: RepositoryService = RepositoryServiceImpl()
+enum RepositoryServiceFactory: DependencyFactory {
+    static let liveValue: RepositoryService = RepositoryServiceImpl()
+    static let testValue: RepositoryService = RepositoryServiceStub()
 }

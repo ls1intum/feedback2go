@@ -235,12 +235,12 @@ enum AssessmentViewModelFactory {
                                     readOnly: Bool) -> AssessmentViewModel {
         switch exercise {
         case .programming:
-            return ProgrammingAssessmentViewModel(exercise: exercise,
-                                                  submissionId: submissionId,
-                                                  participationId: participationId,
-                                                  resultId: resultId,
-                                                  correctionRound: correctionRound,
-                                                  readOnly: readOnly)
+            return ProgrammingAssessmentViewModelFactory(exercise: exercise,
+                                                         submissionId: submissionId,
+                                                         participationId: participationId,
+                                                         resultId: resultId,
+                                                         correctionRound: correctionRound,
+                                                         readOnly: readOnly).shared
         case .text:
             return TextAssessmentViewModel(exercise: exercise,
                                            submissionId: submissionId,

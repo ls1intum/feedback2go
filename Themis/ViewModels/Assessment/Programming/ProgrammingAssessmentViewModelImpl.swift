@@ -1,5 +1,5 @@
 //
-//  ProgrammingAssessmentViewModel.swift
+//  ProgrammingAssessmentViewModelImpl.swift
 //  Themis
 //
 //  Created by Tarlan Ismayilsoy on 29.07.23.
@@ -9,7 +9,7 @@ import Foundation
 import Common
 import SharedModels
 
-class ProgrammingAssessmentViewModel: AssessmentViewModel {
+class ProgrammingAssessmentViewModelImpl: AssessmentViewModel, ProgrammingAssessmentViewModel {
     @MainActor
     override func initSubmission() async {
         guard submission == nil else {
