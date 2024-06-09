@@ -62,7 +62,7 @@ struct CourseView: View {
     }
     
     private var userFirstName: some View {
-        Text(UserSession.shared.user?.name ?? "")
+        Text(UserSessionFactory.shared.user?.name ?? "")
             .foregroundColor(.secondary)
             .font(.callout)
     }

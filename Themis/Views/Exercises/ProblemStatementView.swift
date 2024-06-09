@@ -22,7 +22,7 @@ struct ProblemStatementView: View {
     init(courseId: Int?, exerciseId: Int?) {
         if let courseId,
            let exerciseId,
-           let url = URL(string: "/courses/\(courseId)/exercises/\(exerciseId)/problem-statement", relativeTo: UserSession.shared.institution?.baseURL) {
+           let url = URL(string: "/courses/\(courseId)/exercises/\(exerciseId)/problem-statement", relativeTo: UserSessionFactory.shared.institution?.baseURL) {
             self._request = State(wrappedValue: URLRequest(url: url))
         }
     }

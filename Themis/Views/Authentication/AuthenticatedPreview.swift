@@ -15,7 +15,7 @@ struct AuthenticatedPreview<Content: View>: View {
 
     @ViewBuilder
     var body: some View {
-        if UserSession.shared.isLoggedIn {
+        if UserSessionFactory.shared.isLoggedIn {
             contentBuilder()
         } else {
             Text("Authenticating...")
