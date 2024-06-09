@@ -28,7 +28,7 @@ class PreviewAuthenticationViewModel: LoginViewModel {
             fatalError("Set the staging server in the environment to use PreviewAuthenticationViewModel.")
         }
         UserSession.shared.saveInstitution(identifier: .custom(URL(string: serverURL)))
-        self.instituiton = .custom(URL(string: serverURL))
+        self.institution = .custom(URL(string: serverURL))
         
         guard let username = stagingUser else {
             fatalError("Set the staging user in the environment to use PreviewAuthenticationViewModel.")

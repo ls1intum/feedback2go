@@ -16,8 +16,13 @@ extension BaseParticipation {
     }
     
     /// A convenience function that casts this BaseParticipation instance into a ProgrammingExerciseStudentParticipation and sets its exercise property
-    func setProgrammingExercise(_ exercise: Exercise) {
-        (self as? ProgrammingExerciseStudentParticipation)?.exercise = exercise
+    mutating func setProgrammingExercise(_ exercise: Exercise) {
+        // TODO: I think this works, but please test!!!
+        if var programmingParticipation = self as? ProgrammingExerciseStudentParticipation {
+            programmingParticipation.exercise = exercise
+            // swiftlint:disable:next force_cast
+            self = programmingParticipation as! Self
+        }
     }
     
     /// A convenience function that casts this BaseParticipation instance into a ProgrammingExerciseStudentParticipation and returns the participation id for the given repository type

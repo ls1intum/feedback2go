@@ -1216,7 +1216,6 @@
 				657534A82A0F7A52004B0C3F /* XCRemoteSwiftPackageReference "artemis-ios-core-modules" */,
 				65F007962A86C837000FD641 /* XCRemoteSwiftPackageReference "SwiftUI-Shimmer" */,
 				06A99D3D2A94D99000E48066 /* XCRemoteSwiftPackageReference "Starscream" */,
-				0697E6F02B0653DD00534F5B /* XCRemoteSwiftPackageReference "SwiftLint" */,
 				F734D1AA2B18D83200435866 /* XCRemoteSwiftPackageReference "apollon-ios-module" */,
 			);
 			productRefGroup = 83396D2B29155935003EF727 /* Products */;
@@ -1785,14 +1784,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		0697E6F02B0653DD00534F5B /* XCRemoteSwiftPackageReference "SwiftLint" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/realm/SwiftLint";
-			requirement = {
-				kind = exactVersion;
-				version = 0.53.0;
-			};
-		};
 		06A99D3D2A94D99000E48066 /* XCRemoteSwiftPackageReference "Starscream" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/daltoniam/Starscream";
@@ -1814,7 +1805,7 @@
 			repositoryURL = "https://github.com/ls1intum/artemis-ios-core-modules";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 8.0.0;
+				minimumVersion = 11.1.0;
 			};
 		};
 		65F007962A86C837000FD641 /* XCRemoteSwiftPackageReference "SwiftUI-Shimmer" */ = {
