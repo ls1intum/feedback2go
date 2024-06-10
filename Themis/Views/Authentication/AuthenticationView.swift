@@ -162,7 +162,7 @@ struct AuthenticationView: View {
         .padding(.top, 40)
 #if DEBUG
         .onAppear {
-            //UserSession.shared.saveInstitution(identifier: .custom(URL(string: "https://artemis-staging.ase.in.tum.de/")))
+            UserSessionFactory.shared.saveInstitution(identifier: .custom(URL(string: "https://artemis-staging.ase.in.tum.de/")))
         }
 #endif
     }

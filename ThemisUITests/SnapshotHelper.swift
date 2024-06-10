@@ -11,6 +11,7 @@
 //            bottom of the file to notify users about
 //            the new SnapshotHelper.swift
 // -----------------------------------------------------
+// swiftlint:disable all
 
 import Foundation
 import XCTest
