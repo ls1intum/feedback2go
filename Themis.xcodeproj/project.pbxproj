@@ -29,17 +29,28 @@
 		5141840C2C15F4EB00F0CE55 /* RepositoryServiceStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5141840B2C15F4EB00F0CE55 /* RepositoryServiceStub.swift */; };
 		5141840E2C15F7FA00F0CE55 /* ProgrammingAssessmentViewModelStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5141840D2C15F7FA00F0CE55 /* ProgrammingAssessmentViewModelStub.swift */; };
 		514184102C15F81A00F0CE55 /* ProgrammingAssessmentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5141840F2C15F81A00F0CE55 /* ProgrammingAssessmentViewModel.swift */; };
-		51BD2F212C1602E400AECA6F /* APIClient in Frameworks */ = {isa = PBXBuildFile; productRef = 51BD2F202C1602E400AECA6F /* APIClient */; };
-		51BD2F232C1602E400AECA6F /* Account in Frameworks */ = {isa = PBXBuildFile; productRef = 51BD2F222C1602E400AECA6F /* Account */; };
-		51BD2F252C1602E400AECA6F /* ArtemisMarkdown in Frameworks */ = {isa = PBXBuildFile; productRef = 51BD2F242C1602E400AECA6F /* ArtemisMarkdown */; };
-		51BD2F272C1602E400AECA6F /* Common in Frameworks */ = {isa = PBXBuildFile; productRef = 51BD2F262C1602E400AECA6F /* Common */; };
-		51BD2F292C1602E400AECA6F /* DesignLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 51BD2F282C1602E400AECA6F /* DesignLibrary */; };
-		51BD2F2B2C1602E400AECA6F /* Login in Frameworks */ = {isa = PBXBuildFile; productRef = 51BD2F2A2C1602E400AECA6F /* Login */; };
-		51BD2F2D2C1602E400AECA6F /* ProfileInfo in Frameworks */ = {isa = PBXBuildFile; productRef = 51BD2F2C2C1602E400AECA6F /* ProfileInfo */; };
-		51BD2F2F2C1602E400AECA6F /* PushNotifications in Frameworks */ = {isa = PBXBuildFile; productRef = 51BD2F2E2C1602E400AECA6F /* PushNotifications */; };
-		51BD2F312C1602E400AECA6F /* SharedModels in Frameworks */ = {isa = PBXBuildFile; productRef = 51BD2F302C1602E400AECA6F /* SharedModels */; };
-		51BD2F332C1602E400AECA6F /* SharedServices in Frameworks */ = {isa = PBXBuildFile; productRef = 51BD2F322C1602E400AECA6F /* SharedServices */; };
-		51BD2F352C1602E400AECA6F /* UserStore in Frameworks */ = {isa = PBXBuildFile; productRef = 51BD2F342C1602E400AECA6F /* UserStore */; };
+		517E23EC2C16E90A003CD08C /* APIClient in Frameworks */ = {isa = PBXBuildFile; productRef = 517E23EB2C16E90A003CD08C /* APIClient */; };
+		517E23EE2C16E90A003CD08C /* Account in Frameworks */ = {isa = PBXBuildFile; productRef = 517E23ED2C16E90A003CD08C /* Account */; };
+		517E23F02C16E90A003CD08C /* ArtemisMarkdown in Frameworks */ = {isa = PBXBuildFile; productRef = 517E23EF2C16E90A003CD08C /* ArtemisMarkdown */; };
+		517E23F22C16E90A003CD08C /* Common in Frameworks */ = {isa = PBXBuildFile; productRef = 517E23F12C16E90A003CD08C /* Common */; };
+		517E23F42C16E90A003CD08C /* DesignLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 517E23F32C16E90A003CD08C /* DesignLibrary */; };
+		517E23F62C16E90A003CD08C /* Login in Frameworks */ = {isa = PBXBuildFile; productRef = 517E23F52C16E90A003CD08C /* Login */; };
+		517E23F82C16E90A003CD08C /* ProfileInfo in Frameworks */ = {isa = PBXBuildFile; productRef = 517E23F72C16E90A003CD08C /* ProfileInfo */; };
+		517E23FA2C16E90A003CD08C /* PushNotifications in Frameworks */ = {isa = PBXBuildFile; productRef = 517E23F92C16E90A003CD08C /* PushNotifications */; };
+		517E23FC2C16E90A003CD08C /* SharedModels in Frameworks */ = {isa = PBXBuildFile; productRef = 517E23FB2C16E90A003CD08C /* SharedModels */; };
+		517E23FE2C16E90A003CD08C /* SharedServices in Frameworks */ = {isa = PBXBuildFile; productRef = 517E23FD2C16E90A003CD08C /* SharedServices */; };
+		517E24002C16E90A003CD08C /* UserStore in Frameworks */ = {isa = PBXBuildFile; productRef = 517E23FF2C16E90A003CD08C /* UserStore */; };
+		51B3E7AD2C16FF5C0059655A /* APIClient in Frameworks */ = {isa = PBXBuildFile; productRef = 51B3E7AC2C16FF5C0059655A /* APIClient */; };
+		51B3E7AF2C16FF5C0059655A /* Account in Frameworks */ = {isa = PBXBuildFile; productRef = 51B3E7AE2C16FF5C0059655A /* Account */; };
+		51B3E7B12C16FF5C0059655A /* ArtemisMarkdown in Frameworks */ = {isa = PBXBuildFile; productRef = 51B3E7B02C16FF5C0059655A /* ArtemisMarkdown */; };
+		51B3E7B32C16FF5C0059655A /* Common in Frameworks */ = {isa = PBXBuildFile; productRef = 51B3E7B22C16FF5C0059655A /* Common */; };
+		51B3E7B52C16FF5C0059655A /* DesignLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 51B3E7B42C16FF5C0059655A /* DesignLibrary */; };
+		51B3E7B72C16FF5C0059655A /* Login in Frameworks */ = {isa = PBXBuildFile; productRef = 51B3E7B62C16FF5C0059655A /* Login */; };
+		51B3E7B92C16FF5C0059655A /* ProfileInfo in Frameworks */ = {isa = PBXBuildFile; productRef = 51B3E7B82C16FF5C0059655A /* ProfileInfo */; };
+		51B3E7BB2C16FF5C0059655A /* PushNotifications in Frameworks */ = {isa = PBXBuildFile; productRef = 51B3E7BA2C16FF5C0059655A /* PushNotifications */; };
+		51B3E7BD2C16FF5C0059655A /* SharedModels in Frameworks */ = {isa = PBXBuildFile; productRef = 51B3E7BC2C16FF5C0059655A /* SharedModels */; };
+		51B3E7BF2C16FF5C0059655A /* SharedServices in Frameworks */ = {isa = PBXBuildFile; productRef = 51B3E7BE2C16FF5C0059655A /* SharedServices */; };
+		51B3E7C12C16FF5C0059655A /* UserStore in Frameworks */ = {isa = PBXBuildFile; productRef = 51B3E7C02C16FF5C0059655A /* UserStore */; };
 		6500B9382A260436003C8445 /* TextExerciseRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6500B9372A260436003C8445 /* TextExerciseRenderer.swift */; };
 		6500B93A2A2605A0003C8445 /* TextExerciseRendererViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6500B9392A2605A0003C8445 /* TextExerciseRendererViewModel.swift */; };
 		650538B92A1E1EF200C45E18 /* ExerciseMockExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650538B82A1E1EF200C45E18 /* ExerciseMockExtension.swift */; };
@@ -413,36 +424,47 @@
 			buildActionMask = 2147483647;
 			files = (
 				514183F32C15E66200F0CE55 /* Common in Frameworks */,
-				51BD2F312C1602E400AECA6F /* SharedModels in Frameworks */,
+				517E23FC2C16E90A003CD08C /* SharedModels in Frameworks */,
+				51B3E7BF2C16FF5C0059655A /* SharedServices in Frameworks */,
+				51B3E7AD2C16FF5C0059655A /* APIClient in Frameworks */,
 				514183FD2C15E66200F0CE55 /* SharedModels in Frameworks */,
-				51BD2F332C1602E400AECA6F /* SharedServices in Frameworks */,
+				517E23FE2C16E90A003CD08C /* SharedServices in Frameworks */,
 				65F007982A86C837000FD641 /* Shimmer in Frameworks */,
 				E2E3852A29437F9100F5854D /* CodeEditor in Frameworks */,
 				514183F72C15E66200F0CE55 /* Login in Frameworks */,
 				514184012C15E66200F0CE55 /* UserStore in Frameworks */,
 				514183ED2C15E66200F0CE55 /* APIClient in Frameworks */,
-				51BD2F292C1602E400AECA6F /* DesignLibrary in Frameworks */,
+				517E23F42C16E90A003CD08C /* DesignLibrary in Frameworks */,
 				6564DC102A00EFFC00CF2F89 /* UserStore in Frameworks */,
+				51B3E7C12C16FF5C0059655A /* UserStore in Frameworks */,
 				F734D1AC2B18D83200435866 /* ApollonShared in Frameworks */,
 				F734D1AE2B18D83200435866 /* ApollonView in Frameworks */,
 				514183F92C15E66200F0CE55 /* ProfileInfo in Frameworks */,
 				E2192EE1291E6F780092CE58 /* KeychainAccess in Frameworks */,
-				51BD2F252C1602E400AECA6F /* ArtemisMarkdown in Frameworks */,
+				517E23F02C16E90A003CD08C /* ArtemisMarkdown in Frameworks */,
 				514183EF2C15E66200F0CE55 /* Account in Frameworks */,
+				51B3E7AF2C16FF5C0059655A /* Account in Frameworks */,
 				E536EAD1297458240078E077 /* SwiftUIReorderableForEach in Frameworks */,
-				51BD2F2D2C1602E400AECA6F /* ProfileInfo in Frameworks */,
-				51BD2F2B2C1602E400AECA6F /* Login in Frameworks */,
+				51B3E7B72C16FF5C0059655A /* Login in Frameworks */,
+				517E23F82C16E90A003CD08C /* ProfileInfo in Frameworks */,
+				517E23F62C16E90A003CD08C /* Login in Frameworks */,
 				6564DC0E2A00EFFC00CF2F89 /* SharedModels in Frameworks */,
 				06A99D3F2A94D99000E48066 /* Starscream in Frameworks */,
-				51BD2F352C1602E400AECA6F /* UserStore in Frameworks */,
+				517E24002C16E90A003CD08C /* UserStore in Frameworks */,
+				51B3E7B32C16FF5C0059655A /* Common in Frameworks */,
 				514183FF2C15E66200F0CE55 /* SharedServices in Frameworks */,
 				514183F52C15E66200F0CE55 /* DesignLibrary in Frameworks */,
-				51BD2F232C1602E400AECA6F /* Account in Frameworks */,
+				51B3E7B12C16FF5C0059655A /* ArtemisMarkdown in Frameworks */,
+				51B3E7B92C16FF5C0059655A /* ProfileInfo in Frameworks */,
+				51B3E7BD2C16FF5C0059655A /* SharedModels in Frameworks */,
+				517E23EE2C16E90A003CD08C /* Account in Frameworks */,
 				514183FB2C15E66200F0CE55 /* PushNotifications in Frameworks */,
-				51BD2F212C1602E400AECA6F /* APIClient in Frameworks */,
+				517E23EC2C16E90A003CD08C /* APIClient in Frameworks */,
+				51B3E7BB2C16FF5C0059655A /* PushNotifications in Frameworks */,
+				51B3E7B52C16FF5C0059655A /* DesignLibrary in Frameworks */,
 				514183F12C15E66200F0CE55 /* ArtemisMarkdown in Frameworks */,
-				51BD2F272C1602E400AECA6F /* Common in Frameworks */,
-				51BD2F2F2C1602E400AECA6F /* PushNotifications in Frameworks */,
+				517E23F22C16E90A003CD08C /* Common in Frameworks */,
+				517E23FA2C16E90A003CD08C /* PushNotifications in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1190,17 +1212,28 @@
 				514183FC2C15E66200F0CE55 /* SharedModels */,
 				514183FE2C15E66200F0CE55 /* SharedServices */,
 				514184002C15E66200F0CE55 /* UserStore */,
-				51BD2F202C1602E400AECA6F /* APIClient */,
-				51BD2F222C1602E400AECA6F /* Account */,
-				51BD2F242C1602E400AECA6F /* ArtemisMarkdown */,
-				51BD2F262C1602E400AECA6F /* Common */,
-				51BD2F282C1602E400AECA6F /* DesignLibrary */,
-				51BD2F2A2C1602E400AECA6F /* Login */,
-				51BD2F2C2C1602E400AECA6F /* ProfileInfo */,
-				51BD2F2E2C1602E400AECA6F /* PushNotifications */,
-				51BD2F302C1602E400AECA6F /* SharedModels */,
-				51BD2F322C1602E400AECA6F /* SharedServices */,
-				51BD2F342C1602E400AECA6F /* UserStore */,
+				517E23EB2C16E90A003CD08C /* APIClient */,
+				517E23ED2C16E90A003CD08C /* Account */,
+				517E23EF2C16E90A003CD08C /* ArtemisMarkdown */,
+				517E23F12C16E90A003CD08C /* Common */,
+				517E23F32C16E90A003CD08C /* DesignLibrary */,
+				517E23F52C16E90A003CD08C /* Login */,
+				517E23F72C16E90A003CD08C /* ProfileInfo */,
+				517E23F92C16E90A003CD08C /* PushNotifications */,
+				517E23FB2C16E90A003CD08C /* SharedModels */,
+				517E23FD2C16E90A003CD08C /* SharedServices */,
+				517E23FF2C16E90A003CD08C /* UserStore */,
+				51B3E7AC2C16FF5C0059655A /* APIClient */,
+				51B3E7AE2C16FF5C0059655A /* Account */,
+				51B3E7B02C16FF5C0059655A /* ArtemisMarkdown */,
+				51B3E7B22C16FF5C0059655A /* Common */,
+				51B3E7B42C16FF5C0059655A /* DesignLibrary */,
+				51B3E7B62C16FF5C0059655A /* Login */,
+				51B3E7B82C16FF5C0059655A /* ProfileInfo */,
+				51B3E7BA2C16FF5C0059655A /* PushNotifications */,
+				51B3E7BC2C16FF5C0059655A /* SharedModels */,
+				51B3E7BE2C16FF5C0059655A /* SharedServices */,
+				51B3E7C02C16FF5C0059655A /* UserStore */,
 			);
 			productName = feedback2go;
 			productReference = 83396D2A29155935003EF727 /* Themis.app */;
@@ -1281,7 +1314,7 @@
 				65F007962A86C837000FD641 /* XCRemoteSwiftPackageReference "SwiftUI-Shimmer" */,
 				06A99D3D2A94D99000E48066 /* XCRemoteSwiftPackageReference "Starscream" */,
 				F734D1AA2B18D83200435866 /* XCRemoteSwiftPackageReference "apollon-ios-module" */,
-				51BD2F1F2C1602E400AECA6F /* XCRemoteSwiftPackageReference "artemis-ios-core-modules" */,
+				51B3E7AB2C16FF5C0059655A /* XCRemoteSwiftPackageReference "artemis-ios-core-modules" */,
 			);
 			productRefGroup = 83396D2B29155935003EF727 /* Products */;
 			projectDirPath = "";
@@ -1864,7 +1897,7 @@
 				version = 4.0.4;
 			};
 		};
-		51BD2F1F2C1602E400AECA6F /* XCRemoteSwiftPackageReference "artemis-ios-core-modules" */ = {
+		51B3E7AB2C16FF5C0059655A /* XCRemoteSwiftPackageReference "artemis-ios-core-modules" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ls1intum/artemis-ios-core-modules.git";
 			requirement = {
@@ -1972,59 +2005,103 @@
 			isa = XCSwiftPackageProductDependency;
 			productName = UserStore;
 		};
-		51BD2F202C1602E400AECA6F /* APIClient */ = {
+		517E23EB2C16E90A003CD08C /* APIClient */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 51BD2F1F2C1602E400AECA6F /* XCRemoteSwiftPackageReference "artemis-ios-core-modules" */;
 			productName = APIClient;
 		};
-		51BD2F222C1602E400AECA6F /* Account */ = {
+		517E23ED2C16E90A003CD08C /* Account */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 51BD2F1F2C1602E400AECA6F /* XCRemoteSwiftPackageReference "artemis-ios-core-modules" */;
 			productName = Account;
 		};
-		51BD2F242C1602E400AECA6F /* ArtemisMarkdown */ = {
+		517E23EF2C16E90A003CD08C /* ArtemisMarkdown */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 51BD2F1F2C1602E400AECA6F /* XCRemoteSwiftPackageReference "artemis-ios-core-modules" */;
 			productName = ArtemisMarkdown;
 		};
-		51BD2F262C1602E400AECA6F /* Common */ = {
+		517E23F12C16E90A003CD08C /* Common */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 51BD2F1F2C1602E400AECA6F /* XCRemoteSwiftPackageReference "artemis-ios-core-modules" */;
 			productName = Common;
 		};
-		51BD2F282C1602E400AECA6F /* DesignLibrary */ = {
+		517E23F32C16E90A003CD08C /* DesignLibrary */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 51BD2F1F2C1602E400AECA6F /* XCRemoteSwiftPackageReference "artemis-ios-core-modules" */;
 			productName = DesignLibrary;
 		};
-		51BD2F2A2C1602E400AECA6F /* Login */ = {
+		517E23F52C16E90A003CD08C /* Login */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 51BD2F1F2C1602E400AECA6F /* XCRemoteSwiftPackageReference "artemis-ios-core-modules" */;
 			productName = Login;
 		};
-		51BD2F2C2C1602E400AECA6F /* ProfileInfo */ = {
+		517E23F72C16E90A003CD08C /* ProfileInfo */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 51BD2F1F2C1602E400AECA6F /* XCRemoteSwiftPackageReference "artemis-ios-core-modules" */;
 			productName = ProfileInfo;
 		};
-		51BD2F2E2C1602E400AECA6F /* PushNotifications */ = {
+		517E23F92C16E90A003CD08C /* PushNotifications */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 51BD2F1F2C1602E400AECA6F /* XCRemoteSwiftPackageReference "artemis-ios-core-modules" */;
 			productName = PushNotifications;
 		};
-		51BD2F302C1602E400AECA6F /* SharedModels */ = {
+		517E23FB2C16E90A003CD08C /* SharedModels */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 51BD2F1F2C1602E400AECA6F /* XCRemoteSwiftPackageReference "artemis-ios-core-modules" */;
 			productName = SharedModels;
 		};
-		51BD2F322C1602E400AECA6F /* SharedServices */ = {
+		517E23FD2C16E90A003CD08C /* SharedServices */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 51BD2F1F2C1602E400AECA6F /* XCRemoteSwiftPackageReference "artemis-ios-core-modules" */;
 			productName = SharedServices;
 		};
-		51BD2F342C1602E400AECA6F /* UserStore */ = {
+		517E23FF2C16E90A003CD08C /* UserStore */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 51BD2F1F2C1602E400AECA6F /* XCRemoteSwiftPackageReference "artemis-ios-core-modules" */;
+			productName = UserStore;
+		};
+		51B3E7AC2C16FF5C0059655A /* APIClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 51B3E7AB2C16FF5C0059655A /* XCRemoteSwiftPackageReference "artemis-ios-core-modules" */;
+			productName = APIClient;
+		};
+		51B3E7AE2C16FF5C0059655A /* Account */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 51B3E7AB2C16FF5C0059655A /* XCRemoteSwiftPackageReference "artemis-ios-core-modules" */;
+			productName = Account;
+		};
+		51B3E7B02C16FF5C0059655A /* ArtemisMarkdown */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 51B3E7AB2C16FF5C0059655A /* XCRemoteSwiftPackageReference "artemis-ios-core-modules" */;
+			productName = ArtemisMarkdown;
+		};
+		51B3E7B22C16FF5C0059655A /* Common */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 51B3E7AB2C16FF5C0059655A /* XCRemoteSwiftPackageReference "artemis-ios-core-modules" */;
+			productName = Common;
+		};
+		51B3E7B42C16FF5C0059655A /* DesignLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 51B3E7AB2C16FF5C0059655A /* XCRemoteSwiftPackageReference "artemis-ios-core-modules" */;
+			productName = DesignLibrary;
+		};
+		51B3E7B62C16FF5C0059655A /* Login */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 51B3E7AB2C16FF5C0059655A /* XCRemoteSwiftPackageReference "artemis-ios-core-modules" */;
+			productName = Login;
+		};
+		51B3E7B82C16FF5C0059655A /* ProfileInfo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 51B3E7AB2C16FF5C0059655A /* XCRemoteSwiftPackageReference "artemis-ios-core-modules" */;
+			productName = ProfileInfo;
+		};
+		51B3E7BA2C16FF5C0059655A /* PushNotifications */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 51B3E7AB2C16FF5C0059655A /* XCRemoteSwiftPackageReference "artemis-ios-core-modules" */;
+			productName = PushNotifications;
+		};
+		51B3E7BC2C16FF5C0059655A /* SharedModels */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 51B3E7AB2C16FF5C0059655A /* XCRemoteSwiftPackageReference "artemis-ios-core-modules" */;
+			productName = SharedModels;
+		};
+		51B3E7BE2C16FF5C0059655A /* SharedServices */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 51B3E7AB2C16FF5C0059655A /* XCRemoteSwiftPackageReference "artemis-ios-core-modules" */;
+			productName = SharedServices;
+		};
+		51B3E7C02C16FF5C0059655A /* UserStore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 51B3E7AB2C16FF5C0059655A /* XCRemoteSwiftPackageReference "artemis-ios-core-modules" */;
 			productName = UserStore;
 		};
 		6564DC0D2A00EFFC00CF2F89 /* SharedModels */ = {
