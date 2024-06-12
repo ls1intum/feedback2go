@@ -34,6 +34,18 @@ class ThemisSnapshotTests: XCTestCase {
         collectionViewsQuery.staticTexts["code.swift"].tap()
         
         snapshot("03AssessmentView")
+    }
+
+    // Opening Text assessment in separate test so we can skip navigating back
+    @MainActor
+    func testTakeScreenshotTextAssessment() {
+        app.launch()
+
+        // Navigate to text exercise
+        app.scrollViews.otherElements.images["font-solid"].tap()
         
+        app.navigationBars.element.buttons["Start Assessment"].tap()
+        
+        snapshot("04AssessmentView")
     }
 }

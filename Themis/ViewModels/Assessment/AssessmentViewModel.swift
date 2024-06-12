@@ -242,12 +242,12 @@ enum AssessmentViewModelFactory {
                                                          correctionRound: correctionRound,
                                                          readOnly: readOnly).shared
         case .text:
-            return TextAssessmentViewModel(exercise: exercise,
-                                           submissionId: submissionId,
-                                           participationId: participationId,
-                                           resultId: resultId,
-                                           correctionRound: correctionRound,
-                                           readOnly: readOnly)
+            return TextAssessmentViewModelFactory(exercise: exercise,
+                                                  submissionId: submissionId,
+                                                  participationId: participationId,
+                                                  resultId: resultId,
+                                                  correctionRound: correctionRound,
+                                                  readOnly: readOnly).shared
         case .modeling:
             return ModelingAssessmentViewModel(exercise: exercise,
                                                submissionId: submissionId,
