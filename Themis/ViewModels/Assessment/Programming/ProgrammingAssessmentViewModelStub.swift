@@ -11,6 +11,7 @@ class ProgrammingAssessmentViewModelStub: AssessmentViewModel, ProgrammingAssess
     override func initSubmission() async {
         participationId = 1
         participation = ProgrammingExerciseStudentParticipation.mock
+        pencilModeDisabled = false
     }
 
     func participationId(for repoType: RepositoryType) -> Int? {

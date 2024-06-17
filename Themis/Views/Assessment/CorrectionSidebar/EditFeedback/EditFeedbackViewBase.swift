@@ -102,6 +102,8 @@ struct EditFeedbackViewBase: View {
         }
         .buttonStyle(ThemisButtonStyle())
         .font(.title2)
+        // Don't remove, this is needed for UI Test
+        .accessibilityIdentifier("SaveAssessment")
     }
     
     private var deleteButton: some View {

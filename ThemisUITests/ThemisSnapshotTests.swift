@@ -15,6 +15,7 @@ class ThemisSnapshotTests: XCTestCase {
         super.setUp()
         app = XCUIApplication()
         setupSnapshot(app)
+        XCUIDevice.shared.orientation = .landscapeLeft
     }
     
     @MainActor
@@ -33,6 +34,20 @@ class ThemisSnapshotTests: XCTestCase {
         collectionViewsQuery.staticTexts["Submission #1"].tap()
         collectionViewsQuery.staticTexts["code.swift"].tap()
         
+        // Add inline feedback
+        let enterFeedback = app.textViews["Enter your feedback here"]
+        while !enterFeedback.exists {
+            app.textViews["        .background(isEnabled ? color : Color(.systemGray))"].swipeLeft(velocity: .slow)
+        }
+        enterFeedback.tap()
+        enterFeedback.typeText("Good job!")
+        app.pickerWheels["0.0"].swipeDown(velocity: .slow)
+        app.buttons["SaveAssessment"].tap()
+        
+        // Open correction tab with feedback
+        app.staticTexts["Correction"].tap()
+        app.buttons["Feedback"].tap()
+        
         snapshot("03AssessmentView")
     }
 
@@ -45,6 +60,21 @@ class ThemisSnapshotTests: XCTestCase {
         app.scrollViews.otherElements.images["font-solid"].tap()
         
         app.navigationBars.element.buttons["Start Assessment"].tap()
+        
+        // Open feedback in right pane
+        app.buttons["Feedback"].tap()
+        
+        let submission = app.textViews.textViews.element
+        
+        // Add inline feedback
+        let enterFeedback = app.textViews["Enter your feedback here"]
+        while !enterFeedback.exists {
+            submission.swipeLeft(velocity: .fast)
+        }
+        enterFeedback.tap()
+        enterFeedback.typeText("Good job!")
+        app.pickerWheels["0.0"].swipeDown(velocity: .slow)
+        app.buttons["SaveAssessment"].tap()
         
         snapshot("04AssessmentView")
     }
