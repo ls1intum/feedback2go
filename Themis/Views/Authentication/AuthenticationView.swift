@@ -41,7 +41,7 @@ struct AuthenticationView: View {
         .onSubmit {
             handleSubmit()
         }
-        .onChange(of: loginVM.instituiton) { _, newIdentifier in
+        .onChange(of: loginVM.institution) { _, newIdentifier in
             updateRESTController(for: newIdentifier)
         }
         .task {
@@ -62,7 +62,7 @@ struct AuthenticationView: View {
                 .font(.title)
                 .bold()
             
-            Text("Please sign in with your \(loginVM.instituiton.shortName) account")
+            Text("Please sign in with your \(loginVM.institution.shortName) account")
                 .font(.headline)
             
             showCaptchaInfoIfNeeded()
@@ -156,13 +156,13 @@ struct AuthenticationView: View {
             showInstitutionSelection = true
         }
         .sheet(isPresented: $showInstitutionSelection) {
-            InstitutionSelectionView(institution: $loginVM.instituiton,
+            InstitutionSelectionView(institution: $loginVM.institution,
                                      handleProfileInfoCompletion: loginVM.handleProfileInfoReceived)
         }
         .padding(.top, 40)
 #if DEBUG
         .onAppear {
-            UserSession.shared.saveInstitution(identifier: .custom(URL(string: "https://artemis-staging.ase.in.tum.de/")))
+            UserSessionFactory.shared.saveInstitution(identifier: .custom(URL(string: "https://artemis-staging.ase.in.tum.de/")))
         }
 #endif
     }

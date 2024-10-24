@@ -24,7 +24,7 @@ class FileRendererViewModel: ExerciseRendererViewModel {
     @MainActor
     func setup(basedOn submission: BaseSubmission? = nil) async {
         guard let fileUploadSubmission = submission as? FileUploadSubmission,
-              let baseUrl = UserSession.shared.institution?.baseURL?.absoluteString,
+              let baseUrl = UserSessionFactory.shared.institution?.baseURL?.absoluteString,
               let filePath = fileUploadSubmission.filePath?.dropFirst(),
               let remoteFileUrl = URL(string: "\(baseUrl)\(filePath)") else {
             log.error("Setup failed")

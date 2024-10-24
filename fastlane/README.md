@@ -15,6 +15,14 @@ For _fastlane_ installation instructions, see [Installing _fastlane_](https://do
 
 ## iOS
 
+### ios screenshots
+
+```sh
+[bundle exec] fastlane ios screenshots
+```
+
+Generate new screenshots
+
 ### ios test
 
 ```sh
@@ -54,14 +62,6 @@ For _fastlane_ installation instructions, see [Installing _fastlane_](https://do
 ```
 
 [CI] Check static code quality
-
-### ios slack_notification
-
-```sh
-[bundle exec] fastlane ios slack_notification
-```
-
-[CI] Notify slack channel about new release
 
 ----
 
